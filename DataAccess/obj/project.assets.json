@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoSolution_SV\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\projects\\ToDoSolution_SV\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\HP\\Desktop\\ToDoSolution_SV\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\projects\\ToDoSolution_SV\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\ToDoSolution_SV\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\projects\\ToDoSolution_SV\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

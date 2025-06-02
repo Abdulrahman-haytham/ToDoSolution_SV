@@ -1,13 +1,10 @@
 using System.Collections.Generic;
-using System.Linq; // مطلوب لاستخدام Max
+using System.Linq;
 using NTierTodoApp.DataAccess;
 using NTierTodoApp.Models;
 
 namespace NTierTodoApp.Business
 {
-    /// <summary>
-    /// طبقة المنطق التجاري لإدارة المهام.
-    /// </summary>
     public class TaskService
     {
         private readonly TaskRepository repository;
@@ -39,8 +36,15 @@ namespace NTierTodoApp.Business
 
         public void DeleteTask(int id)
         {
-            // استدعاء دالة الحذف في طبقة DataAccess
             repository.Delete(id);
+        }
+
+        public void UpdateTask(int id, string newTitle)
+        {
+            if (string.IsNullOrWhiteSpace(newTitle))
+                return;
+
+            repository.Update(id, newTitle);
         }
     }
 }
